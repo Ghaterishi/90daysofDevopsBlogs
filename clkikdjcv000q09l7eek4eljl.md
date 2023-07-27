@@ -116,7 +116,7 @@ After adding your origin, use the following commands starting with git(in yellow
 
 ### **🔁Conclusion**:
 
-In this blog, you get a basic understanding of git, GitHub and how its work i encouraged you to go and follow the steps mentioned in the blog so you will understand better.
+In this blog, you get a basic understanding of git, GitHub and how it works I encouraged you to go and follow the steps mentioned in the blog so you will understand better.
 
 Thanks for reading..!
 
