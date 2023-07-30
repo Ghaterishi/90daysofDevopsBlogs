@@ -104,7 +104,7 @@ Restore the file to a previous version where the content should be “This is th
 
 ### 🔁Conclusion:
 
-In this blog, we understand some advanced concepts of git and commands. Also, i mentioned one task and its solution. I encouraged you to go ahead and do this task on your own so you will get a better understanding of branches, how to create, how to merge and many more. check your solution is match mine.
+In this blog, we understand some advanced concepts of git and commands. Also, i mentioned one task and its solution. I encouraged you to go ahead and do this task on your own so you will get a better understanding of branches, how to create, how to merge and many more. check your solution will match mine.
 
 🙏Thanks for reading..!
 
