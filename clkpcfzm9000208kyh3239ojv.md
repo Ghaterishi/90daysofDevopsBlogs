@@ -108,7 +108,7 @@ Conflicts can occur when you merge or rebase branches that have diverged, and yo
 
 👉Git Cherry-Pick: Grab Specific Commits
 
-📌In this blog, we understand some advanced concepts of git and commands. Also, I mentioned some tasks and its solution. intentially i don't mention steps, I encouraged you to go ahead and do this task on your own so you will get a better understanding of branches, how to create, how to merge and many more. check your solution will match mine.
+📌In this blog, we understand some advanced concepts of git and commands. Also, I mentioned some tasks and its solution. Intentionally i don't mention steps, I encouraged you to go ahead and do this task on your own so you will get a better understanding of branches, how to create, how to merge and many more. check your solution will match mine.
 
 🙏Thanks for reading..!
 
