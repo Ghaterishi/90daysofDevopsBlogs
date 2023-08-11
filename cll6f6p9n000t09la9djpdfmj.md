@@ -199,12 +199,29 @@ when you install docker it automatically creates one separate network for contai
 
 This is the default network type that Docker sets up for you. Containers on the same bridge network can communicate with each other directly using their names, and Docker handles IP address assignments. This is like a private network for your containers.
 
-> example: Run a container using nginx but don't expose the port and check you can access that container from a web browser, unfortunately you don't, because you don't expose the port. Docker already creates a bridge network between your host and docker container, you need to use that bridge.
+> example: Run a container using nginx but don't expose the port and check you can access that container from a web browser unfortunately, you don't, because you don't expose the port. Docker already creates a bridge network between your host and docker container, you need to use that bridge.
 > 
 > ```plaintext
 > docker run -d nginx          #cant access from browser
 > docker run -d -p 80:80 nginx #accessable (use bridge net)
 > ```
+
+**Custom-Bridge Network:**
+
+To create a custom bridge network named "my\_network," you can use the following command:
+
+```plaintext
+docker network create my_network
+```
+
+This command will create a new bridge network named "my\_network."
+
+**Run Containers on the Custom Network**: Once you've created the custom network, you can run containers and connect them to this network. For instance, let's say you have a web application and a database, and you want them to communicate on the "my\_network" network.
+
+```plaintext
+docker run -d --name my_web_app --network my_network my_web_image
+docker run -d --name my_database --network my_network my_db_image
+```
 
 **📌Host Network**:
 
