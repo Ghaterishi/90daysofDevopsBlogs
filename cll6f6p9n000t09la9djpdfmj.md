@@ -12,7 +12,7 @@ tags: docker, devops, docker-compose, docker-volume, trainwithshubham
 
 In the last we discussed what is docker, why we use it and its architecture. Also, we discussed some basic commands for managing docker images and containers. In this blog, we will discuss some advanced concepts like Docker volume, Docker-compose, Docker network and how to containerise apps using Docker files.
 
-### 💥How to Containerize your app?
+### 💥How to Containerized your app?
 
 For containerizing app, you have to write a docker file and create an image from it. Dockefile is a list of commands required to run your application inside the containers.
 
@@ -42,7 +42,7 @@ Now your image is ready run the container using this image,
 docker run -d -p <host_port>:<container_port> --name <cont_name> <image_name>
 ```
 
-### ⚒️Contaierzing node app:
+### ⚒️Containerized node app:
 
 * If you already have your code just make the Dockerfile and follow the below steps or else you can fork the simple node-todo app,
     
@@ -79,7 +79,7 @@ Volumes are designed to handle data efficiently, making reading and writing data
 
 The data in the volume is separate from the container, making it easier to manage and back up.
 
-### ⚒️Containerizing Django-app and mount volume in it:🗄️
+### ⚒️Containerized Django app and mount volume in it:🗄️
 
 * If you already have your code just make the Dockerfile and follow the below steps or else you can fork the simple Django-todo app using the following link,
     
