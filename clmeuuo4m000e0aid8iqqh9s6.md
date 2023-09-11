@@ -166,7 +166,7 @@ Copy your worker node public ip and paste it into the browser with nodeport and 
 
 Congratulations on your first app deployment using Kubernetes.
 
-**⏳Step-05: Troubleshooting,**
+### **⏳Troubleshooting:**
 
 1. If your backend pod not getting connected to the database pod and facing a similar issue as mentioned below,
     
